@@ -1,0 +1,1 @@
+.test/images/19704-out_ori.jpg

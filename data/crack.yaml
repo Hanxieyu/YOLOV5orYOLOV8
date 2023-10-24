@@ -1,0 +1,24 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+
+path: /Users/xieyuhan/Downloads/yolov5/datasets/crack
+train: ./train/train.txt
+val: ./val/val.txt
+test: ./test/test.txt
+
+
+# Classes
+names:
+  0: 横向裂缝
+  1: 纵向裂缝
+  2: 块状裂缝
+  3: 龟裂
+  4: 坑槽
+  5: 修补网状裂缝
+  6: 修补裂缝
+  7: 修补坑槽
+
